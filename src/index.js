@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import HelloWorld from './HelloWorld';
+import Counter from './Counter';
 
-render(<HelloWorld />, document.getElementById('root'));
+render(<Counter />, document.getElementById('root'));
