@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import ListTodo from './Components/ListTodo';
-
-
-import 'style.css'
+import Form from './Components/Form';
 
 function App() {
-    return (<div></div>);
+    return <Form /> 
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
