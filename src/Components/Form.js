@@ -1,6 +1,7 @@
 import React from "react";
 
 import Table from "./Table";
+import SelectAll from "./SelectAll";
 import arrayOfObject from "./../users"
 
 export default class Form extends React.Component {
@@ -23,12 +24,13 @@ export default class Form extends React.Component {
                     <option value="v/o">V/O</option>
                     <option value="v/n/o">V/N/O</option>
                 </select>
-                <select defaultValue='A-Z name'>
+                <select>
                     <option value="A-Z name" selected>A-Z name</option>
                     <option value="Z-A name">Z-A name</option>
                     <option value="Budget &#8593;">Budget &#8593;</option>
                     <option value="Budget &#8595;">Budget &#8595;</option>
                 </select> 
+                <SelectAll />
                 <Table />
             </form>
         );
