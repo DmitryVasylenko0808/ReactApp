@@ -1,14 +1,16 @@
 import React from 'react';
 
-export default function Item() {
+import Table from './Table';
+
+export default function Item(props) {
     return (
         <tr>
             <td>
                 <input type='checkbox' />
             </td>
-            <td>One</td>
-            <td>Two</td>
-            <td>Three</td>
+            <td>{props.data.name}</td>
+            <td>{props.data.gender}</td>
+            <td>{props.data.balance}</td>
         </tr>
     );
 } 
