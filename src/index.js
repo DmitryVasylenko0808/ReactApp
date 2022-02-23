@@ -7,7 +7,7 @@ import ListTodo from './Components/ListTodo';
 import 'style.css'
 
 function App() {
-    return <ListTodo />;
+    return (<div></div>);
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
